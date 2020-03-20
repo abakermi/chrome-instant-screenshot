@@ -21,6 +21,14 @@
     },
     "default_title": "instant screenshot",
     "default_popup": "pages/popup.html"
-  }
+  },
+ 
+
+  "permissions":[
+    "tabs",
+    "<all_urls>",
+    "activeTab",
+    "notifications"
+  ]
   
 }

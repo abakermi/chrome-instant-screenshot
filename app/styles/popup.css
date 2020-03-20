@@ -22,8 +22,12 @@ ul{
 ul li{
     display: inline-block;
 }
+ul li::first-child{
+ 
+}
 ul li.title{
     float:left;
+    cursor: pointer;
 }ul li.shortcut{
     float:right;
  opacity: .4;
