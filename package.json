@@ -1,0 +1,12 @@
+{
+  "name": "chrome-instant-screenshot",
+  "version": "0.0.1",
+  "description": "take screenshot from your browser",
+  "scripts": {
+    "dev": "webextension-toolbox dev",
+    "build": "webextension-toolbox build"
+  },
+  "devDependencies": {
+    "webextension-toolbox": "latest"
+  }
+}
