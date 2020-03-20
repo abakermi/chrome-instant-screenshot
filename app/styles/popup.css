@@ -1,0 +1,33 @@
+
+
+/* wrapper style */
+ body{
+     margin: 0;
+ }
+.__wrapper{
+    position: relative;
+    min-width: 250px;
+}
+.__wrapper ul {
+    list-style: none;
+
+}
+ul{
+    display: block;
+    padding: 15px;
+    /* margin: 0; */
+    
+
+}
+ul li{
+    display: inline-block;
+}
+ul li.title{
+    float:left;
+}ul li.shortcut{
+    float:right;
+ opacity: .4;
+}
+ul li.title span{
+    margin-right: 5px;
+}

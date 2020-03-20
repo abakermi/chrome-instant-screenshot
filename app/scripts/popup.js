@@ -1,1 +1,2 @@
-console.log(`'Allo 'Allo! Popup`)
+
+console.log("popup script started..");

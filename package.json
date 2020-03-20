@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "take screenshot from your browser",
   "scripts": {
-    "dev": "webextension-toolbox dev",
+    "dev": "webextension-toolbox dev chrome",
     "build": "webextension-toolbox build"
   },
   "devDependencies": {
