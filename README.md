@@ -1,29 +1,14 @@
-# chrome instant screenshot
 
-take screenshot from your browser
 
-## Install
+<img src="media/img.png" width="50">
 
-	$ npm install
+# chrome instant screenshot [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-## Development
+take instant screenshot from your browser for the current active tab 
+## Install extension manually
 
-    npm run dev chrome
-    npm run dev firefox
-    npm run dev opera
-    npm run dev edge
+ run  ```npm run build  ``` , go to google chrome extension pages , click on ``` Load unpacked ``` then select the **dist/chrome** folder 
 
-## Build
+## License
 
-    npm run build chrome
-    npm run build firefox
-    npm run build opera
-    npm run build edge
-
-## Environment
-
-The build tool also defines a variable named `process.env.NODE_ENV` in your scripts. 
-
-## Docs
-
-* [webextension-toolbox](https://github.com/HaNdTriX/webextension-toolbox)
+MIT © [Abdelhak Akermi](https://github.com/abakermi)
