@@ -1,11 +1,12 @@
 browser.runtime.onInstalled.addListener((details) => {
-  console.log('previousVersion', details.previousVersion)
+
 })
 
-// browser.browserAction.setBadgeText({
-//   text: `'Allo`
-// })
-// browser.browserAction.setBadgeBackgroundColor({
-//   color: `red`
-// })
-console.log(`'Allo 'Allo! Event Page for Browser Action`)
+chrome.commands.onCommand.addListener(function(command) {
+
+  chrome.tabs.query({active:true},function(tabs) {
+    currentTabTitle=tabs[0].title
+    handleCapture(currentTabTitle)
+  })
+
+});
