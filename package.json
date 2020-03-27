@@ -4,7 +4,8 @@
   "description": "take screenshot from your browser",
   "scripts": {
     "dev": "webextension-toolbox dev chrome",
-    "build": "webextension-toolbox build"
+    "build": "webextension-toolbox build",
+    "build:chrome": "webextension-toolbox build chrome --target chrome-instant-screenshot"
   },
   "devDependencies": {
     "webextension-toolbox": "latest"
