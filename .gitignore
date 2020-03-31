@@ -3,3 +3,4 @@ dist/
 packages/
 *.zip
 chrome-instant-screenshot
+package-lock.json
